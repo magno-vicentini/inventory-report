@@ -17,7 +17,7 @@ class CompleteReport(SimpleReport):
         string_companies = ""
         for key, value in dict_companies.items():
             string_companies += f"- {key}: {value}\n"
-            
+
         return (
             f"{value_simple_report}\n"
             f"Produtos estocados por empresa: \n"
