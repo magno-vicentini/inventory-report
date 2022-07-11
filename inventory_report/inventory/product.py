@@ -26,3 +26,7 @@ class Product:
             f" precisa ser armazenado {self.instrucoes_de_armazenamento}."
         )
 
+
+product = Product(1, 'mouse', 'Logitech', '10/01/2020', '10/01/2030', 123456, 'Armazenar em ambiente arejado sem contato direto com calor')
+
+print(product)
