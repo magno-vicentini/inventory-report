@@ -34,7 +34,6 @@ class SimpleReport:
         generate_string = (
             f"Data de fabricação mais antiga: {old_fabrication}\n"
             f"Data de validade mais próxima: {near_fabrication}\n"
-            f"Empresa com maior quantidade de "
-            f"produtos estocados: {stock_company}\n"
+            f"Empresa com mais produtos: {stock_company}"
         )
         return generate_string
