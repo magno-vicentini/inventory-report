@@ -12,7 +12,7 @@ class SimpleReport():
         list_manufacturing_date = []
 
         for product in all_products:
-            # populo as listas primeiro
+            
             list_manufacturing_date.append(product['data_de_fabricacao'])
 
             if product['data_de_validade'] > today_date:
@@ -20,7 +20,6 @@ class SimpleReport():
 
             list_company_name.append(product['nome_da_empresa'])
 
-        # com elas cheias, guardo na variavel
         oldest_date = min(list_manufacturing_date)
 
         closest_expiration_date = min(list_expiration_date)
